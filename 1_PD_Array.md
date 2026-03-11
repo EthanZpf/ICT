@@ -25,7 +25,7 @@
 | **入场决策** | 回答「现在价格值不值得入场」还是「应该等更好的价格」 |
 | **核心理念** | **避开追高杀跌** |
 
-![PD_Array](image/PD_Array.png)
+![PD_Array](PD_Array_image/PD_Array.png)
 
 ---
 
@@ -56,8 +56,8 @@ PD Array 由以下元素组成，用于判断**合理的交易区**：
 | **多头订单块** | 强动能上涨前的**最后一根熊市 K 线**（阳线完全吞噬阴线） |
 | **空头订单块** | 强动能下跌前的**最后一根牛市 K 线**（阴线完全吞噬阳线） |
 
-![多头](image/+.png)
-![空头](image/-.png)
+![多头](PD_Array_image/+.png)
+![空头](PD_Array_image/-.png)
 
 **设立条件**：
 - 一定要**完全吞噬**（此区域可成为未来价格回测时的反弹区）
@@ -79,7 +79,7 @@ PD Array 由以下元素组成，用于判断**合理的交易区**：
 3. 价格收盘突破 OB
 4. 发生结构转换
 
-![破坏块](image/BreakerBlock.png)
+![破坏块](PD_Array_image/BreakerBlock.png)
 
 ---
 
@@ -92,8 +92,8 @@ PD Array 由以下元素组成，用于判断**合理的交易区**：
 - 第二根：中间（大实体 K 线）
 - 第三根：后 K
 
-![FVG1](image/FVG1.png)
-![FVG2](image/FVG2.png)
+![FVG1](PD_Array_image/FVG1.png)
+![FVG2](PD_Array_image/FVG2.png)
 
 **其它 FVG 形态**：
 
@@ -102,8 +102,8 @@ PD Array 由以下元素组成，用于判断**合理的交易区**：
 | **逆向 FVG（Inverse FVG）** | 突破 FVG 区域 |
 | **隐含 FVG（Implied FVG）** | 表面上没有明显空缺，但实体前后都有影线重叠 |
 
-![inverseFVG](image/inverseFVG.png)
-![impliedFVG](image/impliedFVG.png)
+![inverseFVG](PD_Array_image/inverseFVG.png)
+![impliedFVG](PD_Array_image/impliedFVG.png)
 
 ---
 
@@ -111,7 +111,7 @@ PD Array 由以下元素组成，用于判断**合理的交易区**：
 
 **定义**：两个相反方向的 FVG 重叠所形成的区域。
 
-![BPR](image/BalancedPriceRange.png)
+![BPR](PD_Array_image/BalancedPriceRange.png)
 
 ---
 
@@ -124,7 +124,7 @@ PD Array 由以下元素组成，用于判断**合理的交易区**：
 - 出现长影线，该区域可标记为 Rejection Block
 - 价格回测到拒绝块时，可考虑入场
 
-![RB](image/RejectionBlock.png)
+![RB](PD_Array_image/RejectionBlock.png)
 
 ---
 
@@ -134,7 +134,7 @@ PD Array 由以下元素组成，用于判断**合理的交易区**：
 
 - 价格未来可能会**先填补缺口**，再快速离开
 
-![VB](image/VacuumBlock.png)
+![VB](PD_Array_image/VacuumBlock.png)
 
 ---
 
@@ -148,4 +148,4 @@ PD Array 由以下元素组成，用于判断**合理的交易区**：
 3. 发生结构转换
 4. 失败延伸段即为 Mitigation Block
 
-![MB](image/MitigationBlock.png)
+![MB](PD_Array_image/MitigationBlock.png)

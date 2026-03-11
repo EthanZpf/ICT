@@ -1,1 +1,1 @@
-# ICT
+# Learning Inner Circle Trader
